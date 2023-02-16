@@ -1,0 +1,189 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  background:black;
+  overflow: hidden;
+  margin-top: 0.4rem;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: #000000;
+  border: none;
+}
+
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color:  #2e2b2ba5; 
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  
+  background-color: #487737;
+}
+
+.login-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.spotify-logo-title-wrapper{
+  display: flex;
+  
+}
+
+.spotify-logo {
+  width: 5rem;
+  height: 5rem;
+}
+
+.spotify-title {
+  color: rgb(107, 200, 107);
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  font-size: 3rem;
+}
+
+.login-button {
+  height: 2rem;
+  width: 8rem;
+  border-radius:1rem;
+  border: 1px solid white;
+  background:black;
+  cursor: pointer;
+}
+
+.login-button a {
+  color:white
+}
+
+
+.arrow-wrapper{
+  display:flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.arrow{
+  height: 2rem;
+  width:  2rem;
+  cursor: pointer;
+}
+
+
+
+
+.library-wrapper{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 35rem;
+  margin-left: 1rem;
+  animation: fade 0.8s ease-in;
+  
+}
+
+
+
+.songCard-wrapper{
+  background-color: #2e2b2ba5;  
+  margin-top: 1rem;
+  display: flex;
+  height: 4rem;
+  width: 90vw;
+  border-radius: 10px;
+  cursor: pointer;
+  animation: fade 1s ease;
+  white-space: nowrap;
+  overflow: hidden;
+  z-index: 1;
+}
+
+@keyframes fade{
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.song-image{
+  border-radius: 10px 0 0 10px ;
+  transition:  0.5s ease;
+}
+
+.song-image:hover {
+ opacity: 0.5;
+}
+
+
+
+
+.artist-song-wrapper{
+  margin-top: 0.6rem;
+  margin-left: 1rem;
+
+}
+
+.artist-name{
+  color: white;
+  
+}
+
+.song-name{
+  color: rgb(186, 169, 169);
+  font-size: 0.8rem;
+  text-overflow: ellipsis ellipsis;
+  
+}
+
+
+
+
+@media screen and (max-width:300px) {
+  .songCard-wrapper {
+    width: 80vw;
+  }
+
+}
+
+@media screen and (max-width:370px) {
+  .songCard-wrapper {
+    width: 88vw;
+  }
+}
+
+@media screen and (min-width:500px) {
+  .songCard-wrapper {
+    width: 93.5vw;
+  }
+}
+
+
+
+@media screen and (min-width:700px) {
+  .songCard-wrapper {
+    margin-left: 10vw;
+    width: 75vw;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
