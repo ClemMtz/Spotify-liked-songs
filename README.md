@@ -1,10 +1,15 @@
-## Run app
+## run app
 npm start
 
-## Run server
+## run server
 open a new terminal
 
 cd server 
 
 npm start 
+
+## environment variable
+Follow the link https://developer.spotify.com/
+
+
 
