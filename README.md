@@ -7,21 +7,21 @@
 ## Listen to your liked songs...
 https://github.com/ClemMtz/Spotify-liked-songs/assets/121759512/3380bc5d-d89c-40c6-8b9c-9209e4522f53
 
-## run app
+## Run app
 npm start
 
-## run server
+## Run server
 open a new terminal
 
 cd server 
 
 npm start 
 
-## install packages
+## Install packages
 
 npm i
 
-## setup .env file
+## Setup .env file
 Follow the link https://developer.spotify.com/
 
 CLIENT_ID="your client id" 
