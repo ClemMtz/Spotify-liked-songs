@@ -8,14 +8,18 @@ cd server
 
 npm start 
 
-## environment variable
+## install packages
+
+npm i
+
+## setup .env file
 Follow the link https://developer.spotify.com/
 
 CLIENT_ID="your client id" 
 
 CLIENT_SECRET="your client secret" 
 
-REDIRECT_URI= 
+REDIRECT_URI=http://localhost:3000 
 
 
 
