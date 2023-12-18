@@ -11,5 +11,11 @@ npm start
 ## environment variable
 Follow the link https://developer.spotify.com/
 
+CLIENT_ID="your client id" 
+
+CLIENT_SECRET="your client secret" 
+
+REDIRECT_URI= 
+
 
 
